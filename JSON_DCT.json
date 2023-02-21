@@ -1,0 +1,351 @@
+{
+        "QuestionCount": "4",
+        "SurveyOptions": {
+            "BackButton": "false",
+            "SaveAndContinue": "true",
+            "SurveyProtection": "PublicSurvey",
+            "BallotBoxStuffingPrevention": "false",
+            "NoIndex": "Yes",
+            "SecureResponseFiles": "true",
+            "SurveyExpiration": "None",
+            "SurveyTermination": "DefaultMessage",
+            "Header": "",
+            "Footer": "",
+            "ProgressBarDisplay": "None",
+            "PartialData": "+1 week",
+            "ValidationMessage": null,
+            "PreviousButton": "",
+            "NextButton": "",
+            "SurveyTitle": "Qualtrics Survey | Qualtrics Experience Management",
+            "SkinLibrary": "surveymvp",
+            "SkinType": "templated",
+            "Skin": {
+                "brandingId": null,
+                "templateId": "*2014",
+                "overrides": null
+            },
+            "NewScoring": 1,
+            "EOSMessage": null,
+            "ShowExportTags": "false",
+            "CollectGeoLocation": "false",
+            "SurveyMetaDescription": "The most powerful, simple and trusted way to gather experience data. Start your journey to experience management and try a free account today.",
+            "PasswordProtection": "No",
+            "AnonymizeResponse": "No",
+            "RefererCheck": "No",
+            "BallotBoxStuffingPreventionBehavior": null,
+            "BallotBoxStuffingPreventionMessage": null,
+            "BallotBoxStuffingPreventionMessageLibrary": null,
+            "BallotBoxStuffingPreventionURL": null,
+            "RecaptchaV3": "false",
+            "ConfirmStart": false,
+            "AutoConfirmStart": false,
+            "RelevantID": "false",
+            "RelevantIDLockoutPeriod": "+30 days",
+            "UseCustomSurveyLinkCompletedMessage": null,
+            "SurveyLinkCompletedMessage": null,
+            "SurveyLinkCompletedMessageLibrary": null,
+            "ResponseSummary": "No",
+            "EOSMessageLibrary": null,
+            "EOSRedirectURL": null,
+            "EmailThankYou": "false",
+            "ThankYouEmailMessageLibrary": null,
+            "ThankYouEmailMessage": null,
+            "ValidateMessage": "false",
+            "ValidationMessageLibrary": null,
+            "InactiveSurvey": "DefaultMessage",
+            "PartialDeletion": null,
+            "PartialDataCloseAfter": "LastActivity",
+            "InactiveMessageLibrary": null,
+            "InactiveMessage": null,
+            "AvailableLanguages": {
+                "EN": []
+            },
+            "SurveyName": "PII test | 2022-8-2 09:04:25",
+            "SurveyLanguage": "EN",
+            "ActiveResponseSet": "RS_4Nsa4P5UmDG7mQK",
+            "SurveyStartDate": null,
+            "SurveyExpirationDate": null,
+            "SurveyCreationDate": "2022-08-02T09:04:41Z"
+        },
+        "SurveyID": "SV_d57RNTJ8GO82mFM",
+        "SurveyName": "PII test | 2022-8-2 09:04:25",
+        "SurveyStatus": "Inactive",
+        "LastModified": "2022-12-22T10:51:29Z",
+        "BrandID": "surveymvp",
+        "OwnerID": "UR_bQlxfj5n2hPruXc",
+        "DivisionID": "DV_cOSC49XzduHyvRk",
+        "LastAccessed": null,
+        "CreatorID": "UR_bQlxfj5n2hPruXc",
+        "LastActivated": null,
+        "Questions": {
+            "QID3": {
+                "QuestionText": "Please answer this new question.<br>",
+                "DefaultChoices": false,
+                "DataExportTag": "Q3",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Please answer this new question.",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID3",
+                "QuestionText_Unsafe": "Please answer this new question.<br>"
+            },
+            "QID4": {
+                "QuestionText": "Q4",
+                "DefaultChoices": false,
+                "DataExportTag": "Q4",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Q4",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID4",
+                "QuestionText_Unsafe": "Q4"
+            },
+            "QID2": {
+                "DataExportTag": "pkemv001-v0101",
+                "QuestionText": "Question 2 - Without PII",
+                "QuestionDescription": "Question 2 - Without PII",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "Language": [],
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "ContentType",
+                        "ContentType": "ValidNumber"
+                    }
+                },
+                "QuestionID": "QID2",
+                "QuestionText_Unsafe": "Question 2 - Without PII"
+            },
+            "QID1": {
+                "DataExportTag": "fltgx001-v0501",
+                "QuestionText": "What is your name? Final testing",
+                "QuestionDescription": "What is your name? Final testing",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "Language": [],
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "ForceResponseType": "ON",
+                        "Type": "ContentType",
+                        "ContentType": "ValidNumber"
+                    }
+                },
+                "QuestionID": "QID1",
+                "QuestionText_Unsafe": "What is your name? Final testing"
+            }
+        },
+        "Blocks": {
+            "BL_bsmFFmu92xpxTZs": {
+                "Type": "Default",
+                "Description": "Default Question Block",
+                "ID": "BL_bsmFFmu92xpxTZs",
+                "BlockElements": [
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID2"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID1"
+                    },
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID3"
+                    }
+                ]
+            },
+            "BL_88GfFolSaYoeVG6": {
+                "Type": "Trash",
+                "Description": "Trash / Unused Questions",
+                "ID": "BL_88GfFolSaYoeVG6",
+                "Options": {
+                    "BlockLocking": "false",
+                    "RandomizeQuestions": "false",
+                    "BlockVisibility": "Expanded"
+                }
+            },
+            "BL_1GL3BGY6sKUSeF0": {
+                "Type": "Standard",
+                "SubType": "",
+                "Description": "Block 1",
+                "ID": "BL_1GL3BGY6sKUSeF0",
+                "BlockElements": [
+                    {
+                        "Type": "Question",
+                        "QuestionID": "QID4"
+                    }
+                ]
+            }
+        },
+        "ResponseSets": {
+            "RS_4Nsa4P5UmDG7mQK": "Default Response Set"
+        },
+        "SurveyFlow": {
+            "Type": "Root",
+            "FlowID": "FL_1",
+            "Flow": [
+                {
+                    "Type": "EmbeddedData",
+                    "FlowID": "FL_3",
+                    "EmbeddedData": [
+                        {
+                            "Description": "panelist_hash",
+                            "Type": "Recipient",
+                            "Field": "panelist_hash",
+                            "VariableType": "String",
+                            "DataVisibility": [],
+                            "AnalyzeText": false
+                        },
+                        {
+                            "Description": "ContactID",
+                            "Type": "Recipient",
+                            "Field": "ContactID",
+                            "VariableType": "String",
+                            "DataVisibility": [],
+                            "AnalyzeText": true
+                        },
+                        {
+                            "Description": "Q_CHL",
+                            "Type": "Recipient",
+                            "Field": "Q_CHL",
+                            "VariableType": "String",
+                            "DataVisibility": [],
+                            "AnalyzeText": false
+                        },
+                        {
+                            "Description": "Email",
+                            "Type": "Recipient",
+                            "Field": "Email",
+                            "VariableType": "String",
+                            "DataVisibility": [],
+                            "AnalyzeText": false
+                        },
+                        {
+                            "Description": "Country",
+                            "Type": "Custom",
+                            "Field": "Country",
+                            "VariableType": "String",
+                            "DataVisibility": [],
+                            "AnalyzeText": false,
+                            "Value": "USA"
+                        },
+                        {
+                            "Description": "panelistIDNo",
+                            "Type": "Custom",
+                            "Field": "panelistIDNo",
+                            "VariableType": "String",
+                            "DataVisibility": [],
+                            "AnalyzeText": false,
+                            "Value": "1000"
+                        },
+                        {
+                            "Description": "Create New Field or Choose From Dropdown...",
+                            "Type": "Recipient",
+                            "Field": "Create New Field or Choose From Dropdown...",
+                            "VariableType": "String",
+                            "DataVisibility": [],
+                            "AnalyzeText": false
+                        }
+                    ]
+                },
+                {
+                    "ID": "BL_1GL3BGY6sKUSeF0",
+                    "Type": "Standard",
+                    "FlowID": "FL_5"
+                },
+                {
+                    "Type": "Block",
+                    "ID": "BL_bsmFFmu92xpxTZs",
+                    "FlowID": "FL_2",
+                    "Autofill": []
+                },
+                {
+                    "Type": "WebService",
+                    "FlowID": "FL_4",
+                    "URL": "https://httpbin.org/anything",
+                    "Method": "GET",
+                    "RequestParams": [],
+                    "EditBodyParams": [],
+                    "Body": [],
+                    "ContentType": "application/x-www-form-urlencoded",
+                    "Headers": [],
+                    "ResponseMap": [
+                        {
+                            "key": "headers.Host",
+                            "value": "headers.Host"
+                        },
+                        {
+                            "key": "origin",
+                            "value": "origin"
+                        },
+                        {
+                            "key": "url",
+                            "value": "url"
+                        }
+                    ],
+                    "FireAndForget": false,
+                    "StringifyValues": true
+                }
+            ],
+            "Properties": {
+                "Count": 5,
+                "RemovedFieldsets": []
+            }
+        },
+        "Scoring": {
+            "ScoringCategories": [],
+            "ScoringCategoryGroups": [],
+            "ScoringSummaryCategory": null,
+            "ScoringSummaryAfterQuestions": 0,
+            "ScoringSummaryAfterSurvey": 0,
+            "DefaultScoringCategory": null,
+            "AutoScoringCategory": null
+        },
+        "ProjectInfo": {
+            "SurveyID": "SV_d57RNTJ8GO82mFM",
+            "ProjectCategory": "CORE",
+            "ProjectType": null,
+            "CompositionType": null,
+            "ContentBundle": null
+        },
+        "BrandBaseURL": "https://surveymvp.qualtrics.com"
+    }
